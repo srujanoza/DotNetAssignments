@@ -6,7 +6,11 @@ namespace Practical2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            CarSalesMan csm = new CarSalesMan("Srujan", "Oza");
+            csm.sell();
+            RetailSalesMan rsm = new RetailSalesMan("Virat", "Kohli");
+            rsm.sell();
+            Console.Read();
         }
     }
 }
