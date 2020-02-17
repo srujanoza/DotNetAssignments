@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\DotNetPracticals\DotNetTechnology\Practical4\bin\Debug\netcoreapp3.1\Practical4.exe
 D:\DotNetPracticals\DotNetTechnology\Practical4\bin\Debug\netcoreapp3.1\Practical4.deps.json
 D:\DotNetPracticals\DotNetTechnology\Practical4\bin\Debug\netcoreapp3.1\Practical4.runtimeconfig.json
@@ -8,3 +9,15 @@ D:\DotNetPracticals\DotNetTechnology\Practical4\obj\Debug\netcoreapp3.1\Practica
 D:\DotNetPracticals\DotNetTechnology\Practical4\obj\Debug\netcoreapp3.1\Practical4.AssemblyInfo.cs
 D:\DotNetPracticals\DotNetTechnology\Practical4\obj\Debug\netcoreapp3.1\Practical4.dll
 D:\DotNetPracticals\DotNetTechnology\Practical4\obj\Debug\netcoreapp3.1\Practical4.pdb
+=======
+D:\DotNetPracticals\DotNetTechnology\Practical4\bin\Debug\netcoreapp3.1\Practical4.exe
+D:\DotNetPracticals\DotNetTechnology\Practical4\bin\Debug\netcoreapp3.1\Practical4.deps.json
+D:\DotNetPracticals\DotNetTechnology\Practical4\bin\Debug\netcoreapp3.1\Practical4.runtimeconfig.json
+D:\DotNetPracticals\DotNetTechnology\Practical4\bin\Debug\netcoreapp3.1\Practical4.runtimeconfig.dev.json
+D:\DotNetPracticals\DotNetTechnology\Practical4\bin\Debug\netcoreapp3.1\Practical4.dll
+D:\DotNetPracticals\DotNetTechnology\Practical4\bin\Debug\netcoreapp3.1\Practical4.pdb
+D:\DotNetPracticals\DotNetTechnology\Practical4\obj\Debug\netcoreapp3.1\Practical4.AssemblyInfoInputs.cache
+D:\DotNetPracticals\DotNetTechnology\Practical4\obj\Debug\netcoreapp3.1\Practical4.AssemblyInfo.cs
+D:\DotNetPracticals\DotNetTechnology\Practical4\obj\Debug\netcoreapp3.1\Practical4.dll
+D:\DotNetPracticals\DotNetTechnology\Practical4\obj\Debug\netcoreapp3.1\Practical4.pdb
+>>>>>>> c7b60114b2c6531f43ec3c79f294dce3ebe52d59
