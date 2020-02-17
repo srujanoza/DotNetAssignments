@@ -1,0 +1,11 @@
+D:\DotNetPracticals\DotNetTechnology\Practical5\obj\Debug\netcoreapp3.1\Practical5.csprojAssemblyReference.cache
+D:\DotNetPracticals\DotNetTechnology\Practical5\obj\Debug\netcoreapp3.1\Practical5.AssemblyInfoInputs.cache
+D:\DotNetPracticals\DotNetTechnology\Practical5\obj\Debug\netcoreapp3.1\Practical5.AssemblyInfo.cs
+D:\DotNetPracticals\DotNetTechnology\Practical5\bin\Debug\netcoreapp3.1\Practical5.exe
+D:\DotNetPracticals\DotNetTechnology\Practical5\bin\Debug\netcoreapp3.1\Practical5.deps.json
+D:\DotNetPracticals\DotNetTechnology\Practical5\bin\Debug\netcoreapp3.1\Practical5.runtimeconfig.json
+D:\DotNetPracticals\DotNetTechnology\Practical5\bin\Debug\netcoreapp3.1\Practical5.runtimeconfig.dev.json
+D:\DotNetPracticals\DotNetTechnology\Practical5\bin\Debug\netcoreapp3.1\Practical5.dll
+D:\DotNetPracticals\DotNetTechnology\Practical5\bin\Debug\netcoreapp3.1\Practical5.pdb
+D:\DotNetPracticals\DotNetTechnology\Practical5\obj\Debug\netcoreapp3.1\Practical5.dll
+D:\DotNetPracticals\DotNetTechnology\Practical5\obj\Debug\netcoreapp3.1\Practical5.pdb
