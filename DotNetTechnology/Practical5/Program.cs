@@ -7,8 +7,11 @@ namespace Practical5
     {
         static void Main(string[] args)
         {
-            String infix = "a+b*c";
+			String infix;
+			Console.WriteLine("Enter infix");
+			infix = Console.ReadLine();
 			String postfix = infixToPostfix(infix);
+			Console.WriteLine("Postfix");
 			Console.WriteLine(postfix);
 			Console.Read();
         }
@@ -39,10 +42,10 @@ namespace Practical5
 		public static string infixToPostfix(string exp)
 		{
 
-			string result =null;
+			string result = "";
 
 
-			Stack<char> stack = new Stack<char>();
+			 Stack<char> stack = new Stack<char>();
 
 			for (int i = 0; i < exp.Length; ++i)
 			{
@@ -63,7 +66,7 @@ namespace Practical5
 
 				else if (c == ')')
 				{
-					while (stack.Count > 0 && stack.Peek() != '(')
+					while (stack.Peek() != '(')
 					{
 						result += stack.Pop();
 
@@ -71,17 +74,34 @@ namespace Practical5
 
 					stack.Pop();
 				}
-
+				else
 				{
-					while (stack.Count > 0 && priority(c) <= priority(stack.Peek()))
+					if (stack.Count == 0)
 					{
-						result += stack.Pop();
+						stack.Push(c);
 					}
-					stack.Push(c);
+					else if (priority(stack.Peek()) < priority(exp[i]))
+						stack.Push(exp[i]);
+					else
+					{
+						try
+						{
+							while (priority(c) <= priority(stack.Peek()))
+							{
+								result += stack.Pop();
+							}
+						}
+						catch(Exception e)
+						{
+
+						}
+						stack.Push(c);
+					}
+					
 				}
 
 			}
-			while (stack.Count > 0)
+			while (stack.Count!= 0)
 			{
 				result += stack.Pop();
 			}
