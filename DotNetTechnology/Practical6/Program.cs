@@ -8,63 +8,62 @@ namespace Practical6
         static void Main(string[] args)
         {
             Console.WriteLine("Enter a number");
-            int number = 25;
-            void spell(number);
+            int number;
+            number = Console.Read();
 
-            static void spell (int number)
-            {
 
-            }
 
+            int i;
             Stack<String> stack = new Stack<String>();
             while(number > 0)
             {
-                int i = number % 10;
-                switch(i)
+                i = number % 10;
+                
+                switch (i)
                 {
-                    case 0: 
-                        stack.Push("Zero");
+                    case 0:
+                        stack.Push("zero");
                         break;
                     case 1:
-                        stack.Push("One");
+                        stack.Push("one");
                         break;
                     case 2:
-                        stack.Push("Two");
+                        stack.Push("two");
                         break;
                     case 3:
-                        stack.Push("Three");
+                        stack.Push("three");
                         break;
                     case 4:
-                        stack.Push("Four");
+                        stack.Push("four");
                         break;
                     case 5:
-                        stack.Push("Five");
+                        stack.Push("five");
                         break;
                     case 6:
-                        stack.Push("Six");
+                        stack.Push("six");
                         break;
                     case 7:
-                        stack.Push("Seven");
+                        stack.Push("seven");
                         break;
                     case 8:
-                        stack.Push("Eight");
+                        stack.Push("eight");
                         break;
                     case 9:
-                        stack.Push("Nine");
+                        stack.Push("nine");
                         break;
-                    default: Console.WriteLine("Invalid");
+                    default:
+                        Console.WriteLine("invalid");
                         break;
 
                 }
-                int j = number / 10;
-                number = j;
+                number /= 10;
             }
             while(stack.Count > 0)
             {
                  
-                Console.Write(stack.Peek());
+                Console.Write(stack.Pop());
             }
-            
+            Console.ReadLine();
         }
     }
 }
