@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace Practical6
 {
@@ -7,62 +6,37 @@ namespace Practical6
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter a number");
-            int number;
-            number = Console.Read();
 
-
-
-            int i;
-            Stack<String> stack = new Stack<String>();
-            while(number > 0)
+            String number = Console.ReadLine();
+            if (number.Length == 1)
             {
-                i = number % 10;
-                
-                switch (i)
-                {
-                    case 0:
-                        stack.Push("zero");
-                        break;
-                    case 1:
-                        stack.Push("one");
-                        break;
-                    case 2:
-                        stack.Push("two");
-                        break;
-                    case 3:
-                        stack.Push("three");
-                        break;
-                    case 4:
-                        stack.Push("four");
-                        break;
-                    case 5:
-                        stack.Push("five");
-                        break;
-                    case 6:
-                        stack.Push("six");
-                        break;
-                    case 7:
-                        stack.Push("seven");
-                        break;
-                    case 8:
-                        stack.Push("eight");
-                        break;
-                    case 9:
-                        stack.Push("nine");
-                        break;
-                    default:
-                        Console.WriteLine("invalid");
-                        break;
-
-                }
-                number /= 10;
+                Console.WriteLine(Digit.onedigit(Int32.Parse(number)));
             }
-            while(stack.Count > 0)
+            else if (number.Length == 2)
             {
-                 
-                Console.Write(stack.Pop());
+                Console.WriteLine(Digit.twodigit(Int32.Parse(number)));
             }
+            else if (number.Length == 3)
+            {
+                Console.WriteLine(Digit.threedigit(Int32.Parse(number)));
+            }
+            else if (number.Length == 4)
+            {
+                Console.WriteLine(Digit.fourdigit(Int32.Parse(number)));
+            }
+            else if (number.Length == 5)
+            {
+                Console.WriteLine(Digit.fivedigit(Int32.Parse(number)));
+            }
+            else if (number.Length == 6)
+            {
+                Console.WriteLine(Digit.sixdigit(Int32.Parse(number)));
+            }
+            else
+            {
+                Console.WriteLine("Enter Number Only");
+            }
+            Console.WriteLine("Press Enter For Exit...");
             Console.ReadLine();
         }
     }
