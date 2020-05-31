@@ -1,0 +1,9 @@
+D:\Study Material\DotNet\DotNetPracticals-master\Practical_9\bin\Debug\Practical8.exe.config
+D:\Study Material\DotNet\DotNetPracticals-master\Practical_9\bin\Debug\Practical8.exe
+D:\Study Material\DotNet\DotNetPracticals-master\Practical_9\bin\Debug\Practical8.pdb
+D:\Study Material\DotNet\DotNetPracticals-master\Practical_9\obj\Debug\Practical_9.csprojAssemblyReference.cache
+D:\Study Material\DotNet\DotNetPracticals-master\Practical_9\obj\Debug\Practical8.Form1.resources
+D:\Study Material\DotNet\DotNetPracticals-master\Practical_9\obj\Debug\Practical8.Properties.Resources.resources
+D:\Study Material\DotNet\DotNetPracticals-master\Practical_9\obj\Debug\Practical_9.csproj.GenerateResource.cache
+D:\Study Material\DotNet\DotNetPracticals-master\Practical_9\obj\Debug\Practical8.exe
+D:\Study Material\DotNet\DotNetPracticals-master\Practical_9\obj\Debug\Practical8.pdb

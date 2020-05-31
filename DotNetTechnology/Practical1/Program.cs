@@ -15,6 +15,7 @@ namespace Practical1
         }
         static void pattern1()
         {
+            Console.WriteLine("Pattern1");
             for (int j = 0; j < 5; j++)
             {
                 for (int i = 0; i < 5; i++)
@@ -27,6 +28,7 @@ namespace Practical1
 
         static void pattern2()
         {
+            Console.WriteLine("Pattern2");
             for (int j = 0; j <= 5; j++)
             {
                 for (int i = 0; i < j; i++)
@@ -39,6 +41,7 @@ namespace Practical1
 
         static void pattern3()
         {
+            Console.WriteLine("Pattern3");
             for (int j = 5; j >=0; j--)
             {
                 for (int i = j; i >=0; i--)

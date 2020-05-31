@@ -17,9 +17,13 @@ namespace Practical6
                 Console.WriteLine(Digit.twodigit(Int32.Parse(number)));
             }
             else if (number.Length == 3)
-            {
-                Console.WriteLine(Digit.threedigit(Int32.Parse(number)));
-            }
+            
+            {                 Console.WriteLine(Digit.threedigit(Int32.Parse(number)));
+    
+                    
+
+
+
             else if (number.Length == 4)
             {
                 Console.WriteLine(Digit.fourdigit(Int32.Parse(number)));

@@ -1,0 +1,5 @@
+D:\Study Material\DotNet\DotNetPracticals-master\Practical_8\bin\Debug\Practical7.exe.config
+D:\Study Material\DotNet\DotNetPracticals-master\Practical_8\bin\Debug\Practical7.exe
+D:\Study Material\DotNet\DotNetPracticals-master\Practical_8\bin\Debug\Practical7.pdb
+D:\Study Material\DotNet\DotNetPracticals-master\Practical_8\obj\Debug\Practical7.exe
+D:\Study Material\DotNet\DotNetPracticals-master\Practical_8\obj\Debug\Practical7.pdb

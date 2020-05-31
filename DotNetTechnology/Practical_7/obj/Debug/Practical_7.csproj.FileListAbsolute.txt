@@ -1,0 +1,6 @@
+D:\Study Material\DotNet\DotNetPracticals-master\Practical_7\bin\Debug\Practical6.exe.config
+D:\Study Material\DotNet\DotNetPracticals-master\Practical_7\bin\Debug\Practical6.exe
+D:\Study Material\DotNet\DotNetPracticals-master\Practical_7\bin\Debug\Practical6.pdb
+D:\Study Material\DotNet\DotNetPracticals-master\Practical_7\obj\Debug\Practical_7.csprojAssemblyReference.cache
+D:\Study Material\DotNet\DotNetPracticals-master\Practical_7\obj\Debug\Practical6.exe
+D:\Study Material\DotNet\DotNetPracticals-master\Practical_7\obj\Debug\Practical6.pdb
